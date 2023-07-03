@@ -1,0 +1,8 @@
+CREATE TABLE Processes
+(
+    ProcessId INT PRIMARY KEY,
+    ProcessName NVARCHAR(100),
+    HandleNumber INT,
+    ThreadCount INT,
+    MachineName NVARCHAR(100)
+);
